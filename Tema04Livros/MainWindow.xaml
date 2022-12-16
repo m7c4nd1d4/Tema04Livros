@@ -1,0 +1,29 @@
+﻿<Window x:Class="Tema04Livros.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="AppLivros" Height="330" Width="430">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="22" Margin="18,10,0,0" Text="GÊNERO:" TextWrapping="Wrap" VerticalAlignment="Top" Width="105"/>
+        <TextBox x:Name="txtgenero" HorizontalAlignment="Left" Height="29" Margin="78,10,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="133"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="18,110,0,0" Text="LIVRO:" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+        <TextBlock HorizontalAlignment="Left" Height="18" Margin="18,172,0,0" Text="VALOR:" TextWrapping="Wrap" VerticalAlignment="Top" Width="52"/>
+        <TextBlock HorizontalAlignment="Left" Height="18" Margin="18,234,0,0" Text="AUTORES:" TextWrapping="Wrap" VerticalAlignment="Top" Width="55"/>
+        <TextBox x:Name="txtautor" HorizontalAlignment="Left" Height="29" Margin="78,229,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="133"/>
+        <TextBox x:Name="txtvalor" HorizontalAlignment="Left" Height="29" Margin="78,167,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="133"/>
+        <TextBox x:Name="txtnomelivro" HorizontalAlignment="Left" Height="29" Margin="78,105,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="133"/>
+        <Button x:Name="bgenero" Content="Inserir" HorizontalAlignment="Left" Height="20" Margin="114,54,0,0" VerticalAlignment="Top" Width="56" RenderTransformOrigin="1.251,1.245" Click="bgenero_Click_1"/>
+        <Button x:Name="binserir" Content="Inserir" HorizontalAlignment="Left" Height="21" Margin="114,270,0,0" VerticalAlignment="Top" Width="56" Click="binserir_Click_1"/>
+        <Button x:Name="bcalc" Content="Calcular" HorizontalAlignment="Left" Height="21" Margin="312,90,0,0" VerticalAlignment="Top" Width="56" Click="bcalc_Click_1"/>
+        <Button x:Name="blistar" Content="Listar" HorizontalAlignment="Left" Height="21" Margin="312,270,0,0" VerticalAlignment="Top" Width="56" Click="blistar_Click_1"/>
+        <ListBox x:Name="txtlista" HorizontalAlignment="Left" Height="112" Margin="276,147,0,0" VerticalAlignment="Top" Width="128"/>
+        <TextBox x:Name="txtmenorpreco" HorizontalAlignment="Left" Height="43" Margin="280,37,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Height="22" Margin="280,10,0,0" Text="EXIBIR MENOR PREÇO" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Height="22" Margin="298,125,0,0" Text="LISTAR LIVROS" TextWrapping="Wrap" VerticalAlignment="Top" Width="84"/>
+
+
+
+    </Grid>
+</Window>
